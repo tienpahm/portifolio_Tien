@@ -1,0 +1,104 @@
+.portfolio_header-content {
+  margin: auto;
+  padding: 20px 0;
+}
+
+.portfolio_header_nav {
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 150px;
+}
+.portfolio_header_nav .logo img {
+  width: 150px;
+  height: 150px;
+}
+.portfolio_header_nav .nav-link {
+  width: 50%;
+}
+.portfolio_header_nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+}
+.portfolio_header_nav ul li {
+  margin-left: 20px;
+}
+.portfolio_header_nav ul li a {
+  color: black;
+  font-weight: 500;
+  padding: 10px 0;
+  border-bottom: 2px solid transparent;
+  text-decoration: none;
+  transition: 0.5s;
+  white-space: nowrap;
+}
+
+.portfolio_header_nav ul li a:hover {
+  border-bottom-color: #add8e6;
+}
+.header-avatar {
+  margin-bottom: 150px;
+}
+.introduction-context h1 {
+  font-weight: 900;
+  margin-bottom: 20px;
+}
+.introduction-context p {
+  font-weight: 500;
+  font-size: 1.6rem;
+}
+
+.header-avatar img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+.header_skills {
+  margin-top: 50px;
+  box-shadow: 0px 0px 10px 0px #add8e6;
+  border-radius: 10px;
+}
+.header_skills_content {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px;
+}
+.header_skills_content img {
+  width: 60px;
+  height: 60px;
+}
+
+/*===================================================================*/
+@media screen and (max-width: 768px) {
+  .portfolio_header_nav .nav-link {
+    display: none;
+  }
+  .portfolio_header_nav {
+    justify-content: center;
+    margin-bottom: 100px;
+  }
+  .header-avatar {
+    margin-bottom: 100px;
+  }
+  .header_skills_content {
+    justify-content: space-between;
+    width: 100%;
+  }
+  .header_skills_content img {
+    width: 50px;
+    height: 50px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .introduction-context h1 {
+    font-size: 2.1rem;
+    margin-bottom: 10px;
+  }
+  .introduction-context p {
+    font-size: 1.2rem;
+  }
+}
