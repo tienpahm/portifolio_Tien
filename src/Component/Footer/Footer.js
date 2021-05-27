@@ -19,7 +19,7 @@ export default function Footer() {
             </div>
             <div className="social-items">
               <a
-                href="https://github.com/tienpahm?tab=repositories"
+                href="https://github.com/tienpahm"
                 rel="noreferrer"
                 target="_blank">
                 {" "}
